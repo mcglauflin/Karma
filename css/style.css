@@ -48,12 +48,15 @@ table {
 }
 
 body {
-    background-color: LightGray;
+    background-color: #ffffff;
 }
 
 /* Navigation Section */
 .top-navigation {
-	background-color: #ffffff
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .content {
@@ -62,7 +65,7 @@ body {
 
 .content {
 	padding: 0.938rem;
-	width: 970px
+	width: 970px;
 	height 70px;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -132,4 +135,31 @@ body {
 	font-size: 1.125rem;
 	color: #ffffff;
 	display: block;
+}
+
+/* Second Section */
+
+.content h2{
+	text-align: center;
+	font-weight: 100;
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+}
+
+.caption {
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.53rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+.cases .devices >li{
+	width: 33.3333333%;
+	float: left;
+
+}
+.devices img{
+	display:block;
+	margin: 0 auto;
+	padding: 0px 5px;
 }
